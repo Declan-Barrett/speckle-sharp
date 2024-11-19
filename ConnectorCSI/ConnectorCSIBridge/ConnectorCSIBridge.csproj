@@ -2,6 +2,7 @@
   <PropertyGroup>
     <AssemblyName>SpeckleConnectorCSI</AssemblyName>
     <TargetFramework>net48</TargetFramework>
+    <!--TargetFramework>net8.0-windows</TargetFramework>-->
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
   <ItemGroup>

@@ -35,6 +35,7 @@ class Program
       // create API helper object
       cHelper myHelper = null;
 
+      
       myHelper = new Helper();
 
       // attach to a running program instance

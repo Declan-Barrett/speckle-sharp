@@ -3,6 +3,7 @@
     <RootNamespace>SpeckleConnectorCSI</RootNamespace>
     <AssemblyName>SpeckleConnectorCSI</AssemblyName>
     <TargetFramework>net48</TargetFramework>
+    <!--TargetFramework>net8.0-windows</TargetFramework>-->
     <PlatformTarget>x64</PlatformTarget>
     <AssemblyTitle>ConnectorSAFE</AssemblyTitle>
     <Product>ConnectorSAFE</Product>
@@ -23,7 +24,10 @@
     <ProjectReference Include="..\..\Objects\Converters\StructuralUtilities\PolygonMesher\PolygonMesher.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CSiAPIv1" Version="1.0.0" />
+    <!-- <PackageReference Include="CSiAPIv1" Version="1.0.0" /> -->
+    <Reference Include="CSiAPIv1">
+      <HintPath>C:\Program Files\Computers and Structures\ETABS 22\CSiAPIv1.dll</HintPath>
+    </Reference>
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
   </ItemGroup>
 </Project>

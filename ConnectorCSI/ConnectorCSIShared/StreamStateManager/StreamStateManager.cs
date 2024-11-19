@@ -25,7 +25,7 @@ public static class StreamStateManager
   }
 
   /// <summary>
-  /// Writes the stream states to the <CSIModelName>.txt file in speckle folder
+  /// Writes the stream states to the CSIModelName.txt file in speckle folder
   /// that exists or is created in the folder where the CSI model exists.
   /// </summary>
   /// <param name="model"></param>
@@ -60,7 +60,7 @@ public static class StreamStateManager
 
   /// <summary>
   /// We need a folder in CSI model folder named "speckle" and a file in it
-  /// called "<CSIModelName>.txt". This function create this file and folder if
+  /// called "CSIModelName.txt". This function create this file and folder if
   /// they doesn't exists and returns it, otherwise just returns the file path
   /// </summary>
   /// <param name="model"></param>
@@ -90,7 +90,7 @@ public static class StreamStateManager
   }
 
   /// <summary>
-  /// Reads the "/speckle/<CSIModelName>.txt" file and returns the string in it
+  /// Reads the "/speckle/CSIModelName.txt" file and returns the string in it
   /// </summary>
   /// <param name="model"></param>
   private static string ReadSpeckleFile(cSapModel model)

@@ -3,6 +3,7 @@
     <RootNamespace>SpeckleConnector</RootNamespace>
     <AssemblyName>SpeckleConnector</AssemblyName>
     <TargetFramework>net48</TargetFramework>
+    <!--TargetFramework>net8.0-windows</TargetFramework>-->
     <PlatformTarget>x64</PlatformTarget>
     <AssemblyTitle>DriverPluginCSharp</AssemblyTitle>
     <Product>DriverPluginCSharp</Product>
