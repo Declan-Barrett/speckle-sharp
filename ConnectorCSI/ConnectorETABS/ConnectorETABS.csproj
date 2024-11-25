@@ -35,6 +35,8 @@
     <!-- replace <PackageReference Include="CSiAPIv1" Version="1.0.0" /> with local newer version until available on nuget-->
     <Reference Include="CSiAPIv1">
       <HintPath>C:\Program Files\Computers and Structures\ETABS 22\CSiAPIv1.dll</HintPath>
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
     </Reference>
     <!-- Framework reference for accessing Windows-specific APIs -->
     <!--<FrameworkReference Include="Microsoft.Windows.Compatibility" />-->
